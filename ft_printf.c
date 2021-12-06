@@ -6,7 +6,7 @@
 /*   By: lchokri <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/05 09:15:42 by lchokri           #+#    #+#             */
-/*   Updated: 2021/12/06 21:15:56 by lchokri          ###   ########.fr       */
+/*   Updated: 2021/12/06 21:25:02 by lchokri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ void	ft_puthexaptr(unsigned long n, int i, char *mabase)
 	unsigned long	y;
 
 	y = n;
-//	if (*str == 'X')
-//		mabase = "0123456789ABCDEF";
 	while (y)
 	{
 		y /= 16;
